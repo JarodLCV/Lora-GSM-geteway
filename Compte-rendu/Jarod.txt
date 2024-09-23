@@ -1,0 +1,9 @@
+Le 23 Septembre 2023 : 
+    - Recherche dans la Doc comment brancher l'interface USB sur la carte fournie
+    - Recherche dans la Doc pour alimenter la carte
+    - Découverte d'une erreur, VCC relié sur le GND
+    - Création d'un nouveau REPO Github
+    - Installation d'Altium sur Windows VM après un essai sur mac par Guilherme
+    - Ouverture des fichiers Gerber
+
+    Prochaine fois : Modification des fichiers
