@@ -29,5 +29,7 @@
 - Ouverture des fichiers de dessin dans Eagle.
 - Rajout de la documentation et des schémas sur GitHub.
 - Recherche de la documentation des composants:
-### Composants :
+*** Composants : ***
 - TXB0108PWR : https://www.ti.com/lit/ds/symlink/txb0108.pdf
+- Cherché le Symbol et Footprint des composants pour pouvoir les rajouté dans Eagle.
+- Rajouté les composants dans Eagle.
