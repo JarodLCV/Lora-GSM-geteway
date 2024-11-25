@@ -28,7 +28,6 @@
 - Passé le Cahier de Charges de la version lablette à la version MarkDown, sur GitHub.
 - Ouverture des fichiers de dessin dans Eagle.
 - Rajout de la documentation et des schémas sur GitHub.
-test
 - Recherche de la documentation des composants:
 ### Composants :
 - TXB0108PWR : https://www.ti.com/lit/ds/symlink/txb0108.pdf
