@@ -1,9 +1,18 @@
-Le 23 Septembre 2023 : 
+Le 23 Septembre 2024 : 
     - Recherche dans la Doc comment brancher l'interface USB sur la carte fournie
     - Recherche dans la Doc pour alimenter la carte
     - Découverte d'une erreur, VCC relié sur le GND
     - Création d'un nouveau REPO Github
     - Installation d'Altium sur Windows VM après un essai sur mac par Guilherme
     - Ouverture des fichiers Gerber
-
     Prochaine fois : Modification des fichiers
+
+Le 12 novembre 2024 : 
+    - Installation d'Altium
+    - Analyse du schéma existant avec M.Peter
+    - Installation de Fusion étudient
+
+Le 25 novembre 2024 : 
+    - Récupération des fichiers fournis par M.Peter
+    - Annontation des schémas
+    - Savoir qu'est ce qu'il nous faut vraiment sur la carte
