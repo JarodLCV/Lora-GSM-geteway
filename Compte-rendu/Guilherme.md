@@ -23,3 +23,10 @@
 - Travaillé à la maison pour comprendre comment utiliser le logiciel.
 - Pris des cours d'électronique en ligne pour Fusion.
 - Dessiné et simulé des circuits simples pour m'entraîner.
+
+## 25 Novembre 2024
+- Passé le Cahier de Charges de la version lablette à la version MarkDown, sur GitHub.
+- Ouverture des fichiers de dessin dans Eagle.
+- Recherche de la documentation des composants:
+### Composants :
+- TXB0108PWR : https://www.ti.com/lit/ds/symlink/txb0108.pdf
