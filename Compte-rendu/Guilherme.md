@@ -33,3 +33,4 @@
 - TXB0108PWR : https://www.ti.com/lit/ds/symlink/txb0108.pdf
 - Cherché le Symbol et Footprint des composants pour pouvoir les rajouté dans Eagle.
 - Rajouté les composants dans Eagle.
+- Commencé à reconstruire le circuit.
