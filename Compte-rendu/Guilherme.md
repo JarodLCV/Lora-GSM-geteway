@@ -9,6 +9,7 @@
 - Nous avons vu avec Monsieur Peter que le projet de l'année dernière avait plusieurs autres problèmes donc on devra tout réfaire.
 - Recherche de la documentation des composants principaux du circuit. Une partie était disponible sur GitHub.
 - Commencé à regarder comment importer des nouveaux composants dans Fusion.
+- Écriture du bruillon du cahier de charges.
 
 ### Liste de composants:
 - SimCom SIM7000G : [https://www.manualslib.com/manual/1498555/Simcom-Sim7000g.html?page=20#manual](https://www.manualslib.com/manual/1498555/Simcom-Sim7000g.html?page=20#manual)
