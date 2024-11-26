@@ -34,3 +34,6 @@
 - Cherché le Symbol et Footprint des composants pour pouvoir les rajouté dans Eagle.
 - Rajouté les composants dans Eagle.
 - Commencé à reconstruire le circuit.
+
+## 26 Novembre 2024
+- Revenu au schéma précedent car il avait déjà les composants nécessaire.
