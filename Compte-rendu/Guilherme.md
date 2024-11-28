@@ -34,3 +34,17 @@
 - Cherché le Symbol et Footprint des composants pour pouvoir les rajouté dans Eagle.
 - Rajouté les composants dans Eagle.
 - Commencé à reconstruire le circuit.
+
+## 26 Novembre 2024
+- Revenu au schéma précedent car il avait déjà les composants nécessaire.
+- Remplacé une entrée par 3V.
+- Modifié la 
+
+
+- Problémes trouvés, et corrigés, avec des composants:
+        - R9 : Rien de branché.
+        - JP2 lié à rien.
+        - R20 et R18 liées à rien -> Branché à Q7, C5, D3 et la masse.
+        - Q8 : l'une des pates pas branchées !!!(tjrs pas reglé).
+        - R10 : Qu'une pate branchée
+        - LED R1 lié que dans une seule pate
