@@ -48,3 +48,6 @@
         - Q8 : l'une des pates pas branchées !!!(tjrs pas reglé).
         - R10 : Qu'une pate branchée
         - LED R1 lié que dans une seule pate
+
+## 5 Décembre 2024 (à la maison)
+- Continué à faire le routage du circuit
