@@ -16,3 +16,6 @@ Le 25 novembre 2024 :
     - Récupération des fichiers fournis par M.Peter
     - Annontation des schémas
     - Savoir qu'est ce qu'il nous faut vraiment sur la carte
+
+Le 26 novembre 2024 :
+    - 
