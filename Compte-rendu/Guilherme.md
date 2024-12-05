@@ -6,7 +6,18 @@
 - Découverte d'un problème de liaison entre VCC et la masse.
 
 ## 12 Novembre 2024
-- Nous avons vu avec Monsieur Peter que le projet de l'année dernière avait plusieurs autres problèmes donc on devra tout réfaire.
+- Nous avons vu avec Monsieur Peter que le projet de l'année dernière avait plusieurs autres problèmes donc on devra tout réfaire.        
+- Court-cicuit à l'entrée du circuit.
+  ![image](https://github.com/user-attachments/assets/4c9664af-8ab2-4228-a892-88fa458c01a7)
+- Tous les composants sont liés à la masse.
+  ![image](https://github.com/user-attachments/assets/6b201a64-f41a-4265-9bcb-72407d0c83f5)
+- LEDs allimentés entre masse et masse.
+  ![image](https://github.com/user-attachments/assets/b70d72b0-e847-4489-95e2-e112881b2ec5)
+- Utilisation des NMOS à la place des PMOS.
+  ![image](https://github.com/user-attachments/assets/4eef47ae-e349-4b70-af49-58a68e484c0d)
+- LEDs liés entre la masse et rien.
+  ![image](https://github.com/user-attachments/assets/49a45590-99e6-4a7c-a344-1f0d12d132e3)  
+
 - Recherche de la documentation des composants principaux du circuit. Une partie était disponible sur GitHub.
 - Commencé à regarder comment importer des nouveaux composants dans Fusion.
 - Écriture du bruillon du cahier de charges.
@@ -51,4 +62,4 @@
 
 ## 5 Décembre 2024 (à la maison)
 - Continué à faire le routage du circuit
-TODO: Vérifier si j'ai choisi la bonne taille pour les pistes
+- TODO: Vérifier si j'ai choisi la bonne taille pour les pistes
