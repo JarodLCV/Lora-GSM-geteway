@@ -51,3 +51,4 @@
 
 ## 5 Décembre 2024 (à la maison)
 - Continué à faire le routage du circuit
+TODO: Vérifier si j'ai choisi la bonne taille pour les pistes
