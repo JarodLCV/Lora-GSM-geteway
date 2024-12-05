@@ -61,5 +61,7 @@
         - LED R1 lié que dans une seule pate
 
 ## 5 Décembre 2024 (à la maison)
-- Continué à faire le routage du circuit
-- TODO: Vérifier si j'ai choisi la bonne taille pour les pistes
+- Continué à faire le routage du circuit.
+- TODO: Vérifier si j'ai choisi la bonne taille pour les pistes.
+- Appris comment faire le routage de la partie bottom.
+- Beaucoup avancé le routage top et bottom.
