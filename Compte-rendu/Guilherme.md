@@ -1,11 +1,11 @@
 # Compte Rendu Guilherme VENTAPANE RODRIGUES
 
-## 23 Septembre 2024
+## Lundi 23 Septembre 2024
 - Essai d'adapter Altium pour l'installer sur Mac.
 - Problème d'installation, Jarod va l'installer sur Windows.
 - Découverte d'un problème de liaison entre VCC et la masse.
 
-## 12 Novembre 2024
+## Mardi 12 Novembre 2024
 - Nous avons vu avec Monsieur Peter que le projet de l'année dernière avait plusieurs autres problèmes donc on devra tout réfaire.
 - Court-circuit à l'entrée du circuit.
   ![image](https://github.com/user-attachments/assets/4c9664af-8ab2-4228-a892-88fa458c01a7)
@@ -35,7 +35,7 @@
 - Pris des cours d'électronique en ligne pour Fusion.
 - Dessiné et simulé des circuits simples pour m'entraîner.
 
-## 25 Novembre 2024
+## Lundi 25 Novembre 2024
 - Passé le cahier des charges de la version lablette à la version Markdown, sur GitHub.
 - Ouverture des fichiers de dessin dans Eagle.
 - Ajout de la documentation et des schémas sur GitHub.
@@ -45,7 +45,7 @@
   - Ajouté les composants dans Eagle.
   - Commencé à reconstruire le circuit.
 
-## 26 Novembre 2024
+## Mardi 26 Novembre 2024
 - Revenu au schéma précédent car il avait déjà les composants nécessaires.
 - Remplacé une entrée par 3V.
 - Modifié la liste de composants.
@@ -58,7 +58,7 @@
   - R10 : Une seule patte branchée.
   - LED R1 liée que dans une seule patte.
 
-## 5 Décembre 2024 (à la maison)
+## Jeudi 5 Décembre 2024 (à la maison)
 - Continué à faire le routage du circuit.
 - TODO : Vérifier si j'ai choisi la bonne taille pour les pistes.
 - Appris comment faire le routage de la partie bottom avec : [https://www.autodesk.com/products/fusion-360/blog/routing-autorouting-pcb-layout-basics-2/](https://www.autodesk.com/products/fusion-360/blog/routing-autorouting-pcb-layout-basics-2/)
