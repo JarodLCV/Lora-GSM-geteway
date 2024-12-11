@@ -63,3 +63,8 @@
 - TODO : Vérifier si j'ai choisi la bonne taille pour les pistes.
 - Appris comment faire le routage de la partie bottom avec : [https://www.autodesk.com/products/fusion-360/blog/routing-autorouting-pcb-layout-basics-2/](https://www.autodesk.com/products/fusion-360/blog/routing-autorouting-pcb-layout-basics-2/)
 - Beaucoup avancé le routage top et bottom.
+
+## Lundi 9 Décembre 2024
+- Modifié les miles du routage.
+- Terminé le routage.
+- Regardé le code de la carte avec Jarod pour essayer de faire communiquer la carte avec le PC, puis envoyer un message SMS.
