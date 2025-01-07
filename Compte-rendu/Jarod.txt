@@ -18,4 +18,10 @@ Le 25 novembre 2024 :
     - Savoir qu'est ce qu'il nous faut vraiment sur la carte
 
 Le 26 novembre 2024 :
-    - 
+    - Cablage du SIM7000 sur plaque de test avec ESP32
+    - Installation d'arduino IDE
+    - installation des bibliothèques ESP32 pour le programmer 
+
+Le 09 Décembre 2024 :  
+    - Récupération du code
+    - Essai d'envoi de SMS
