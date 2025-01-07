@@ -68,3 +68,15 @@
 - Modifié les miles du routage.
 - Terminé le routage.
 - Regardé le code de la carte avec Jarod pour essayer de faire communiquer la carte avec le PC, puis envoyer un message SMS.
+
+## Mardi 7 Janvier 2025
+- J'ai regardé avec Jarod pour essayer de tester la carte avec le code. Nous n'avons toujours pas réussi.
+- J'ai trouvé et installé une autre bibliothèque pour le GSM appelée TinyGSM.
+- J'ai vu avec le professeur qu'il restait encore plusieurs soucis sur le schéma EAGLE :
+  1. V+ branché à ground
+     1. Solution : Les remplacer par un nouveau V+ trouvé dans sources1.
+  2. Pistes qui passent par la Keepout Zone du SIM7000
+     1. Solution : Enlever les pistes ou les passer par la face bottom.
+  3. Condensateurs de couplage trop éloignés de la SIM7000
+     1. Solution : Déplacer la SIM7000 vers le bas pour avoir la place.
+- J'ai enlevé toutes les pistes pour pouvoir déplacer les composants d'une façon plus optimisée.
