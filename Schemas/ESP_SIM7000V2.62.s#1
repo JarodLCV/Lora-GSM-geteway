@@ -11502,9 +11502,9 @@ GPIO0 determines boot mode</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="93.98" y="43.18" smashed="yes"/>
-<instance part="J1" gate="G$1" x="177.3174" y="111.9886" smashed="yes">
-<attribute name="NAME" x="173.49883125" y="116.06173125" size="1.27285" layer="95"/>
-<attribute name="VALUE" x="172.98958125" y="106.3879" size="1.27288125" layer="96"/>
+<instance part="J1" gate="G$1" x="174.7774" y="111.9886" smashed="yes">
+<attribute name="NAME" x="170.95883125" y="116.06173125" size="1.27285" layer="95"/>
+<attribute name="VALUE" x="170.44958125" y="106.3879" size="1.27288125" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="109.22" y="121.92" smashed="yes">
 <attribute name="NAME" x="105.40143125" y="125.99313125" size="1.27285" layer="95"/>
@@ -11520,8 +11520,8 @@ GPIO0 determines boot mode</text>
 <attribute name="NAME" x="151.8666" y="110.9726" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="156.9466" y="110.9726" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$8" gate="G$1" x="159.766" y="114.5286" smashed="yes">
-<attribute name="VALUE" x="158.242" y="111.9886" size="1.27" layer="96"/>
+<instance part="U$8" gate="G$1" x="162.306" y="111.9886" smashed="yes">
+<attribute name="VALUE" x="160.782" y="109.4486" size="1.27" layer="96"/>
 </instance>
 <instance part="U$9" gate="G$1" x="154.94" y="48.26" smashed="yes">
 <attribute name="VALUE" x="153.416" y="45.72" size="1.27" layer="96"/>
@@ -11812,7 +11812,7 @@ GPIO0 determines boot mode</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="SIG"/>
 <pinref part="U$8" gate="G$1" pin="GND"/>
-<wire x1="167.1574" y1="114.5286" x2="159.766" y2="117.0686" width="0.1524" layer="91"/>
+<wire x1="164.6174" y1="114.5286" x2="162.306" y2="114.5286" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@7"/>
@@ -11970,7 +11970,7 @@ GPIO0 determines boot mode</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="167.1574" y1="109.4486" x2="160.2994" y2="109.4486" width="0.1524" layer="91"/>
+<wire x1="164.6174" y1="109.4486" x2="160.2994" y2="109.4486" width="0.1524" layer="91"/>
 <wire x1="160.2994" y1="109.4486" x2="157.3276" y2="109.4486" width="0.1524" layer="91"/>
 <wire x1="160.2994" y1="109.4486" x2="160.2994" y2="109.474" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>

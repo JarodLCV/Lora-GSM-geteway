@@ -80,3 +80,5 @@
   3. Condensateurs de couplage trop éloignés de la SIM7000
      1. Solution : Déplacer la SIM7000 vers le bas pour avoir la place.
 - J'ai enlevé toutes les pistes pour pouvoir déplacer les composants d'une façon plus optimisée.
+
+## Samedi 18 Janvier 2025 (à la maison)
