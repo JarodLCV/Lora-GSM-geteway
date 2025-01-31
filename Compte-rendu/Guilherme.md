@@ -82,3 +82,4 @@
 - J'ai enlevé toutes les pistes pour pouvoir déplacer les composants d'une façon plus optimisée.
 
 ## Samedi 18 Janvier 2025 (à la maison)
+- Continué à faire le cablage
