@@ -102,7 +102,8 @@
   Corrigé:
   <img width="280" alt="image" src="https://github.com/user-attachments/assets/442baf3d-e4b1-4de5-b71c-3e2a0dafaa94" />
 
-  Connexions disponibles:
+  Connexions maintenat disponibles:
+  
   <img width="200" alt="image" src="https://github.com/user-attachments/assets/c86e1030-30b0-412d-bb35-44d4577b28d1" />
 - Corrigé la taille des images dans le compte rendu.
 
