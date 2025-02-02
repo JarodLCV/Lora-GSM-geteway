@@ -12010,8 +12010,9 @@ GPIO0 determines boot mode</text>
 <label x="22.86" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-86.614" y1="-19.7358" x2="-96.774" y2="-19.7358" width="0.1524" layer="91"/>
-<label x="-96.774" y="-19.7358" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="A1"/>
+<wire x1="-86.4108" y1="-19.7358" x2="-99.06" y2="-19.7358" width="0.1524" layer="91"/>
+<label x="-99.06" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LTE_TXD" class="0">
@@ -12021,14 +12022,9 @@ GPIO0 determines boot mode</text>
 <label x="22.86" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-86.614" y1="-22.2758" x2="-96.774" y2="-22.2758" width="0.1524" layer="91"/>
-<label x="-96.774" y="-22.2758" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LTE_DRT" class="0">
-<segment>
-<wire x1="-86.614" y1="-27.3558" x2="-96.774" y2="-27.3558" width="0.1524" layer="91"/>
-<label x="-96.774" y="-27.3558" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="A2"/>
+<wire x1="-86.4108" y1="-22.2758" x2="-99.06" y2="-22.2758" width="0.1524" layer="91"/>
+<label x="-99.06" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UC_RX" class="0">
@@ -12097,8 +12093,8 @@ GPIO0 determines boot mode</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="OE"/>
 <pinref part="V9" gate="G$1" pin="+1V8"/>
-<wire x1="-94.0308" y1="-14.5288" x2="-86.4108" y2="-14.5288" width="0.1524" layer="91"/>
-<wire x1="-86.4108" y1="-14.5288" x2="-86.4108" y2="-14.6558" width="0.1524" layer="91"/>
+<wire x1="-94.0308" y1="-14.5288" x2="-88.9508" y2="-14.5288" width="0.1524" layer="91"/>
+<wire x1="-88.9508" y1="-14.5288" x2="-86.4108" y2="-14.6558" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_STAT" class="0">
@@ -12120,8 +12116,9 @@ GPIO0 determines boot mode</text>
 <label x="22.86" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-86.614" y1="-24.8158" x2="-96.774" y2="-24.8158" width="0.1524" layer="91"/>
-<label x="-96.774" y="-24.8158" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="A3"/>
+<wire x1="-86.4108" y1="-24.8158" x2="-99.06" y2="-24.8158" width="0.1524" layer="91"/>
+<label x="-99.06" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LTE_DTR" class="0">
@@ -12377,11 +12374,6 @@ GPIO0 determines boot mode</text>
 </net>
 <net name="LTE_SDA" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="A5"/>
-<wire x1="-86.4108" y1="-29.8958" x2="-96.52" y2="-29.8958" width="0.1524" layer="91"/>
-<label x="-96.774" y="-29.9466" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="203.6826" y1="19.812" x2="203.7588" y2="17.7546" width="0.1524" layer="91"/>
 <wire x1="193.9544" y1="17.8054" x2="203.7588" y2="17.7546" width="0.1524" layer="91"/>
@@ -12393,13 +12385,13 @@ GPIO0 determines boot mode</text>
 <wire x1="193.9544" y1="17.78" x2="193.9544" y2="17.8054" width="0.1524" layer="91"/>
 <label x="208.534" y="17.9578" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="A5"/>
+<wire x1="-86.4108" y1="-29.8958" x2="-99.06" y2="-29.8958" width="0.1524" layer="91"/>
+<label x="-99.06" y="-30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LTE_SCL" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="A6"/>
-<wire x1="-86.4108" y1="-32.4358" x2="-96.6724" y2="-32.4358" width="0.1524" layer="91"/>
-<label x="-97.0026" y="-32.3596" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="178.2318" y1="12.7" x2="203.708" y2="12.7" width="0.1524" layer="91"/>
@@ -12409,6 +12401,11 @@ GPIO0 determines boot mode</text>
 <wire x1="203.708" y1="6.2992" x2="203.708" y2="12.7" width="0.1524" layer="91"/>
 <junction x="203.708" y="12.7"/>
 <label x="209.169" y="12.9032" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="A6"/>
+<wire x1="-86.4108" y1="-32.4358" x2="-99.06" y2="-32.4358" width="0.1524" layer="91"/>
+<label x="-99.06" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12501,6 +12498,13 @@ GPIO0 determines boot mode</text>
 <wire x1="200.3806" y1="96.9772" x2="203.2" y2="96.9772" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="96.9772" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
 <junction x="200.3806" y="96.9772"/>
+</segment>
+</net>
+<net name="LTE_DRT" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="A4"/>
+<wire x1="-86.4108" y1="-27.3558" x2="-99.06" y2="-27.3558" width="0.1524" layer="91"/>
+<label x="-99.06" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
