@@ -83,3 +83,13 @@
 
 ## Samedi 18 Janvier 2025 (à la maison)
 - Continué à faire le cablage
+
+## Dimanche 2 Février 2025 
+- Continué à faire le cablage
+- Remarqué qu'il manquait beaucoup de cablage sur le schéma du TXT0108PWR, reglé ça:
+  1. LTE_RXD
+  2. LTE_TXD
+  3. LTE_RI
+  4. LTE_DRT
+  5. LTE_SDA
+  6. LTE_SCL
