@@ -1,5 +1,8 @@
 # **Passerelle LoRa-GSM**  
-Un projet combinant des connaissances en électronique et en programmation pour créer un pont entre le GSM et le LoRa.  
+Un projet combinant des connaissances en électronique et en programmation pour créer un pont entre le GSM et le LoRa.
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/89d18e22-138f-430b-ac1e-dbb92593b67c"/>
+
 
 ## **Contexte du projet**  
 Il s'agit d'un projet du cours de Projet d'Électronique, encadré par Monsieur Christian Peter (Christian.PETER@univ-cotedazur.fr), dans le cadre du cursus d'Ingénierie Électronique et Informatique Industrielle de la Polytech de Sophia Antipolis.  
