@@ -106,4 +106,4 @@
   
   <img width="200" alt="image" src="https://github.com/user-attachments/assets/c86e1030-30b0-412d-bb35-44d4577b28d1" />
 - Corrigé la taille des images dans le compte rendu.
-
+- Respecté la zone de Keepout du SIM7000.
