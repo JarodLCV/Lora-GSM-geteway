@@ -8,15 +8,20 @@
 ## Mardi 12 Novembre 2024
 - Nous avons vu avec Monsieur Peter que le projet de l'année dernière avait plusieurs autres problèmes donc on devra tout réfaire.
 - Court-circuit à l'entrée du circuit.
-  ![image](https://github.com/user-attachments/assets/4c9664af-8ab2-4228-a892-88fa458c01a7)
+  
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/4c9664af-8ab2-4228-a892-88fa458c01a7"/>
 - Tous les composants sont liés à la masse.
-  ![image](https://github.com/user-attachments/assets/6b201a64-f41a-4265-9bcb-72407d0c83f5)
+  
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/6b201a64-f41a-4265-9bcb-72407d0c83f5"/>
 - LEDs alimentées entre masse et masse.
-  ![image](https://github.com/user-attachments/assets/b70d72b0-e847-4489-95e2-e112881b2ec5)
+  
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/b70d72b0-e847-4489-95e2-e112881b2ec5"/>
 - Utilisation des NMOS à la place des PMOS.
-  ![image](https://github.com/user-attachments/assets/4eef47ae-e349-4b70-af49-58a68e484c0d)
+  
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/4eef47ae-e349-4b70-af49-58a68e484c0d"/>
 - LEDs liées entre la masse et rien.
-  ![image](https://github.com/user-attachments/assets/49a45590-99e6-4a7c-a344-1f0d12d132e3)  
+  
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/49a45590-99e6-4a7c-a344-1f0d12d132e3"/>
 
 - Recherche de la documentation des composants principaux du circuit. Une partie était disponible sur GitHub.
 - Commencé à regarder comment importer des nouveaux composants dans Fusion.
@@ -84,7 +89,7 @@
 ## Samedi 18 Janvier 2025 (à la maison)
 - Continué à faire le cablage
 
-## Dimanche 2 Février 2025 
+## Dimanche 2 Février 2025 (à la maison)
 - Continué à faire le cablage
 - Remarqué qu'il manquait beaucoup de cablage sur le schéma du TXT0108PWR, reglé ça:
   1. LTE_RXD
@@ -93,3 +98,13 @@
   4. LTE_DRT
   5. LTE_SDA
   6. LTE_SCL
+  <img width="294" alt="image" src="https://github.com/user-attachments/assets/f67ade96-abcd-4e3f-924f-8f7eea927137" />
+  Corrigé:
+  <img width="280" alt="image" src="https://github.com/user-attachments/assets/442baf3d-e4b1-4de5-b71c-3e2a0dafaa94" />
+
+  Connexions maintenat disponibles:
+  
+  <img width="200" alt="image" src="https://github.com/user-attachments/assets/c86e1030-30b0-412d-bb35-44d4577b28d1" />
+- Corrigé la taille des images dans le compte rendu.
+- Respecté la zone de Keepout du SIM7000.
+- Écriture de la documentation dans Readme.md.
