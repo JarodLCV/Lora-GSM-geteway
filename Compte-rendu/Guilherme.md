@@ -93,3 +93,4 @@
   4. LTE_DRT
   5. LTE_SDA
   6. LTE_SCL
+  <img width="294" alt="image" src="https://github.com/user-attachments/assets/f67ade96-abcd-4e3f-924f-8f7eea927137" />
