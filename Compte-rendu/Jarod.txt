@@ -25,3 +25,12 @@ Le 26 novembre 2024 :
 Le 09 Décembre 2024 :  
     - Récupération du code
     - Essai d'envoi de SMS
+
+Le 7 janvier 2025 : 
+    - Essai avec le code du groupe précédant
+    - Utilisation de la lib tinyGMS
+    - reprise du code précédant 
+    - Essai directement avec le BK SIM7000 
+
+Le 3 février 2025 : 
+    - Routage du PCB (continuation)
