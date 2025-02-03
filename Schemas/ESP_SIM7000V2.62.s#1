@@ -11409,7 +11409,7 @@ GPIO0 determines boot mode</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO5"/>
 <pinref part="IO5" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="152.4" x2="252.73" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="147.32" x2="250.19" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TILT1" class="0">
