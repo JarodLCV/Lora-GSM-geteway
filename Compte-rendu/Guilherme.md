@@ -114,3 +114,4 @@
 - Fait plusieurs essais avec le code et des nouvelles libraries.
 - Pas encore réussi.
 - J'amène la carte à la maison pour vérifier le cablage et continuer à faire des essais.
+- <img width="535" alt="image" src="https://github.com/user-attachments/assets/43da582c-54af-4560-8a36-635efeb3d2db" />
