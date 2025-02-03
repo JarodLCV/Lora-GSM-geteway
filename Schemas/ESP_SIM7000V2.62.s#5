@@ -10677,6 +10677,7 @@ transients.&lt;p&gt;
 <part name="J1" library="U.FL-R-SMT_01_" deviceset="U.FL-R-SMT(01)" device=""/>
 <part name="J2" library="U.FL-R-SMT_01_" deviceset="U.FL-R-SMT(01)" device=""/>
 <part name="U$3" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
+<part name="U$4" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="V+"/>
 <part name="U$5" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="33pF"/>
 <part name="U$8" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
@@ -10691,6 +10692,7 @@ transients.&lt;p&gt;
 <part name="V3" library="supply_new" deviceset="+1V8" device="" value="+1V8"/>
 <part name="U$6" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="GND"/>
 <part name="U$7" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="GND"/>
+<part name="U$17" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="V+"/>
 <part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="470"/>
 <part name="Q6" library="transistor-small-signal-perso" deviceset="BSS131" device="" value="BSS138"/>
 <part name="LED_R1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="Bleue"/>
@@ -10705,6 +10707,7 @@ transients.&lt;p&gt;
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R23" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="150"/>
 <part name="R25" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="100"/>
+<part name="U$18" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="V+"/>
 <part name="Q7" library="transistor-small-signal-perso" deviceset="BSS131" device="" value="BSS138"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="33k"/>
@@ -10714,6 +10717,7 @@ transients.&lt;p&gt;
 <part name="U$12" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="U$19" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="U$20" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="GND"/>
+<part name="U$27" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="V+"/>
 <part name="R11" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="470"/>
 <part name="Q9" library="transistor-small-signal-perso" deviceset="BSS131" device="" value="BSS138"/>
 <part name="LED_R2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="Bleue"/>
@@ -10724,6 +10728,7 @@ transients.&lt;p&gt;
 <part name="R15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="2.2k"/>
 <part name="R16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="NC"/>
 <part name="R17" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="2.2k"/>
+<part name="U$31" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="V+"/>
 <part name="V4" library="supply_new" deviceset="+1V8" device="" value="BOOT_CFG"/>
 <part name="D2" library="PESD5V0X1UB" deviceset="PESD5V0X1UB" device=""/>
 <part name="D3" library="PESD5V0X1UB" deviceset="PESD5V0X1UB" device=""/>
@@ -10749,11 +10754,6 @@ transients.&lt;p&gt;
 <part name="C20" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C1210" package3d_urn="urn:adsk.eagle:package:13278/1" value="0.1uF"/>
 <part name="U$22" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device="" value="GND"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11513,6 +11513,9 @@ GPIO0 determines boot mode</text>
 <instance part="U$3" gate="G$1" x="91.44" y="121.92" smashed="yes">
 <attribute name="VALUE" x="89.916" y="119.38" size="1.27" layer="96"/>
 </instance>
+<instance part="U$4" gate="G$1" x="109.22" y="106.68" smashed="yes" rot="R180">
+<attribute name="VALUE" x="110.744" y="109.22" size="1.27" layer="96" rot="R180"/>
+</instance>
 <instance part="U$5" gate="G$1" x="147.32" y="99.06" smashed="yes">
 <attribute name="VALUE" x="145.796" y="96.52" size="1.27" layer="96"/>
 </instance>
@@ -11558,32 +11561,42 @@ GPIO0 determines boot mode</text>
 <instance part="U$7" gate="G$1" x="-15.9004" y="35.3314" smashed="yes">
 <attribute name="VALUE" x="-17.4244" y="32.7914" size="1.27" layer="96"/>
 </instance>
+<instance part="U$17" gate="G$1" x="-15.9004" y="86.3854" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-14.3764" y="88.9254" size="1.27" layer="96" rot="R180"/>
+</instance>
 <instance part="R8" gate="G$1" x="-15.875" y="63.8556" smashed="yes" rot="R90">
 <attribute name="NAME" x="-17.3736" y="65.1256" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-12.573" y="65.1256" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q6" gate="G$1" x="-15.875" y="47.3456" smashed="yes">
-<attribute name="NAME" x="-23.495" y="48.6156" size="1.778" layer="95"/>
+<attribute name="NAME" x="-20.955" y="51.1556" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-12.065" y="43.5356" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED_R1" gate="G$1" x="-15.875" y="77.8256" smashed="yes">
 <attribute name="NAME" x="-12.319" y="73.2536" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-10.16" y="73.2536" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C11" gate="G$1" x="-72.7964" y="75.819" smashed="yes" rot="R180">
-<attribute name="NAME" x="-74.3204" y="75.438" size="1.778" layer="95" rot="R180"/>
+<instance part="C11" gate="G$1" x="-72.7964" y="73.279" smashed="yes" rot="R180">
+<attribute name="NAME" x="-74.3204" y="72.898" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-74.3204" y="77.978" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C8" gate="G$1" x="-60.0964" y="75.819" smashed="yes" rot="R180">
-<attribute name="NAME" x="-61.6204" y="75.438" size="1.778" layer="95" rot="R180"/>
+<instance part="C8" gate="G$1" x="-60.0964" y="73.279" smashed="yes" rot="R180">
+<attribute name="NAME" x="-61.6204" y="72.898" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-61.6204" y="77.978" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C16" gate="G$1" x="-44.8564" y="75.819" smashed="yes" rot="R180">
-<attribute name="NAME" x="-46.3804" y="75.438" size="1.778" layer="95" rot="R180"/>
+<instance part="C16" gate="G$1" x="-44.8564" y="73.279" smashed="yes" rot="R180">
+<attribute name="NAME" x="-46.3804" y="72.898" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-46.3804" y="77.978" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C17" gate="G$1" x="-32.1564" y="75.819" smashed="yes" rot="R180">
-<attribute name="NAME" x="-33.6804" y="75.438" size="1.778" layer="95" rot="R180"/>
+<instance part="C17" gate="G$1" x="-32.1564" y="73.279" smashed="yes" rot="R180">
+<attribute name="NAME" x="-33.6804" y="72.898" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-33.6804" y="77.978" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$28" gate="G$1" x="-52.4764" y="60.579" smashed="yes">
 <attribute name="VALUE" x="-54.0004" y="58.039" size="1.27" layer="96"/>
+</instance>
+<instance part="U$18" gate="G$1" x="-52.5018" y="89.1032" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-50.9778" y="91.6432" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="Q7" gate="G$1" x="3.81" y="-3.0226" smashed="yes">
 <attribute name="NAME" x="-1.27" y="0.7874" size="1.778" layer="95"/>
@@ -11618,12 +11631,15 @@ GPIO0 determines boot mode</text>
 <instance part="U$20" gate="G$1" x="5.1054" y="33.909" smashed="yes">
 <attribute name="VALUE" x="3.5814" y="31.369" size="1.27" layer="96"/>
 </instance>
+<instance part="U$27" gate="G$1" x="5.1054" y="85.1662" smashed="yes" rot="R180">
+<attribute name="VALUE" x="6.6294" y="87.7062" size="1.27" layer="96" rot="R180"/>
+</instance>
 <instance part="R11" gate="G$1" x="5.2324" y="62.5348" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.7338" y="63.8048" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="8.5344" y="63.8048" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q9" gate="G$1" x="5.1308" y="45.9232" smashed="yes">
-<attribute name="NAME" x="-5.0292" y="49.7332" size="1.778" layer="95"/>
+<attribute name="NAME" x="0.0508" y="49.7332" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.9408" y="42.1132" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED_R2" gate="G$1" x="5.1308" y="76.4032" smashed="yes">
@@ -11656,6 +11672,9 @@ GPIO0 determines boot mode</text>
 <instance part="R17" gate="G$1" x="203.708" y="1.2192" smashed="yes" rot="R90">
 <attribute name="NAME" x="202.2094" y="2.4892" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="207.01" y="2.4892" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$31" gate="G$1" x="201.803" y="102.0064" smashed="yes" rot="R180">
+<attribute name="VALUE" x="203.327" y="104.5464" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="V4" gate="G$1" x="23.114" y="62.7634" smashed="yes">
 <attribute name="VALUE" x="19.939" y="65.3034" size="1.778" layer="96"/>
@@ -11741,21 +11760,6 @@ GPIO0 determines boot mode</text>
 <instance part="+3V3" gate="G$1" x="-30.48" y="-15.24" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="-12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+2" gate="1" x="5.08" y="91.44" smashed="yes">
-<attribute name="VALUE" x="2.54" y="88.9" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+4" gate="1" x="-15.24" y="91.44" smashed="yes">
-<attribute name="VALUE" x="-17.78" y="88.9" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+5" gate="1" x="-53.34" y="96.52" smashed="yes">
-<attribute name="VALUE" x="-55.88" y="93.98" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+6" gate="1" x="109.22" y="111.76" smashed="yes">
-<attribute name="VALUE" x="106.68" y="109.22" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+8" gate="1" x="203.2" y="111.76" smashed="yes">
-<attribute name="VALUE" x="200.66" y="109.22" size="1.778" layer="96" rot="R90"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -11773,6 +11777,20 @@ GPIO0 determines boot mode</text>
 <pinref part="J2" gate="G$1" pin="SIG"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VBAT@1"/>
+<wire x1="119.38" y1="99.06" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VBAT@2"/>
+<wire x1="114.3" y1="101.6" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<junction x="114.3" y="101.6"/>
+<pinref part="U$1" gate="G$1" pin="VBAT@3"/>
+<wire x1="109.22" y1="101.6" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<wire x1="109.22" y1="104.14" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<junction x="109.22" y="101.6"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@15"/>
@@ -11863,22 +11881,27 @@ GPIO0 determines boot mode</text>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="-32.1564" y1="73.279" x2="-32.1564" y2="65.659" width="0.1524" layer="91"/>
+<wire x1="-32.1564" y1="70.739" x2="-32.1564" y2="65.659" width="0.1524" layer="91"/>
 <wire x1="-32.1564" y1="65.659" x2="-44.8564" y2="65.659" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="-44.8564" y1="65.659" x2="-52.4764" y2="65.659" width="0.1524" layer="91"/>
 <wire x1="-52.4764" y1="65.659" x2="-60.0964" y2="65.659" width="0.1524" layer="91"/>
 <wire x1="-60.0964" y1="65.659" x2="-72.7964" y2="65.659" width="0.1524" layer="91"/>
-<wire x1="-72.7964" y1="65.659" x2="-72.7964" y2="73.279" width="0.1524" layer="91"/>
+<wire x1="-72.7964" y1="65.659" x2="-72.7964" y2="70.739" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="-60.0964" y1="73.279" x2="-60.0964" y2="65.659" width="0.1524" layer="91"/>
+<wire x1="-60.0964" y1="70.739" x2="-60.0964" y2="65.659" width="0.1524" layer="91"/>
 <junction x="-60.0964" y="65.659"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="-44.8564" y1="73.279" x2="-44.8564" y2="65.659" width="0.1524" layer="91"/>
+<wire x1="-44.8564" y1="70.739" x2="-44.8564" y2="65.659" width="0.1524" layer="91"/>
 <junction x="-44.8564" y="65.659"/>
 <pinref part="U$28" gate="G$1" pin="GND"/>
 <wire x1="-52.4764" y1="63.119" x2="-52.4764" y2="65.659" width="0.1524" layer="91"/>
 <junction x="-52.4764" y="65.659"/>
+</segment>
+<segment>
+<pinref part="U$18" gate="G$1" pin="GND"/>
+<wire x1="-52.5272" y1="85.979" x2="-52.5018" y2="85.979" width="0.1524" layer="91"/>
+<wire x1="-52.5018" y1="85.979" x2="-52.5018" y2="86.5632" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q9" gate="G$1" pin="S"/>
@@ -11897,6 +11920,12 @@ GPIO0 determines boot mode</text>
 <wire x1="149.86" y1="22.86" x2="159.5882" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="159.5882" y1="22.86" x2="159.5882" y2="22.8854" width="0.1524" layer="91"/>
 <label x="154.3304" y="23.0378" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED_R2" gate="G$1" pin="A"/>
+<pinref part="U$27" gate="G$1" pin="GND"/>
+<wire x1="5.1308" y1="78.9432" x2="5.1308" y2="82.6262" width="0.1524" layer="91"/>
+<wire x1="5.1308" y1="82.6262" x2="5.1054" y2="82.6262" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -11964,6 +11993,12 @@ GPIO0 determines boot mode</text>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="-9.6774" y1="-52.6796" x2="21.209" y2="-52.6796" width="0.1524" layer="91"/>
 <wire x1="21.209" y1="-52.6796" x2="21.209" y2="-42.926" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED_R1" gate="G$1" pin="A"/>
+<pinref part="U$17" gate="G$1" pin="GND"/>
+<wire x1="-15.875" y1="80.3656" x2="-15.875" y2="83.8454" width="0.1524" layer="91"/>
+<wire x1="-15.875" y1="83.8454" x2="-15.9004" y2="83.8454" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12149,6 +12184,26 @@ GPIO0 determines boot mode</text>
 <junction x="5.1308" y="51.0032"/>
 </segment>
 </net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="-72.7964" y1="78.359" x2="-72.7964" y2="83.439" width="0.1524" layer="91"/>
+<wire x1="-72.7964" y1="83.439" x2="-60.0964" y2="83.439" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="-60.0964" y1="83.439" x2="-52.4764" y2="83.439" width="0.1524" layer="91"/>
+<wire x1="-52.4764" y1="83.439" x2="-44.8564" y2="83.439" width="0.1524" layer="91"/>
+<wire x1="-44.8564" y1="83.439" x2="-32.1564" y2="83.439" width="0.1524" layer="91"/>
+<wire x1="-32.1564" y1="83.439" x2="-32.1564" y2="78.359" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="-44.8564" y1="78.359" x2="-44.8564" y2="83.439" width="0.1524" layer="91"/>
+<junction x="-44.8564" y="83.439"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="-60.0964" y1="78.359" x2="-60.0964" y2="83.439" width="0.1524" layer="91"/>
+<junction x="-60.0964" y="83.439"/>
+<wire x1="-52.4764" y1="85.979" x2="-52.4764" y2="83.439" width="0.1524" layer="91"/>
+<junction x="-52.4764" y="83.439"/>
+</segment>
+</net>
 <net name="N$16" class="0">
 <segment>
 <wire x1="-108.7628" y1="143.4084" x2="-108.7628" y2="-79.1718" width="0.1524" layer="91"/>
@@ -12236,6 +12291,16 @@ GPIO0 determines boot mode</text>
 <pinref part="LED_R2" gate="G$1" pin="C"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="5.1308" y1="71.3232" x2="5.2324" y2="67.6148" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="201.803" y1="90.7288" x2="201.803" y2="96.901" width="0.1524" layer="91"/>
+<wire x1="201.803" y1="96.901" x2="201.803" y2="96.9772" width="0.1524" layer="91"/>
+<wire x1="201.803" y1="96.9772" x2="200.3806" y2="96.9772" width="0.1524" layer="91"/>
+<wire x1="201.803" y1="96.9772" x2="201.803" y2="99.4156" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -12446,61 +12511,6 @@ GPIO0 determines boot mode</text>
 <pinref part="LED_R1" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="-15.875" y1="72.7456" x2="-15.875" y2="68.9356" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="V+" class="0">
-<segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="-72.7964" y1="80.899" x2="-72.7964" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-72.7964" y1="88.9" x2="-60.0964" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="-60.0964" y1="88.9" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="88.9" x2="-44.8564" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-44.8564" y1="88.9" x2="-32.1564" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-32.1564" y1="88.9" x2="-32.1564" y2="80.899" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="-60.0964" y1="80.899" x2="-60.0964" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="-44.8564" y1="80.899" x2="-44.8564" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="V+"/>
-<wire x1="-53.34" y1="93.98" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-53.34" y="88.9"/>
-</segment>
-<segment>
-<pinref part="LED_R1" gate="G$1" pin="A"/>
-<pinref part="P+4" gate="1" pin="V+"/>
-<wire x1="-15.875" y1="80.3656" x2="-15.875" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-15.875" y1="88.9" x2="-15.24" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED_R2" gate="G$1" pin="A"/>
-<pinref part="P+2" gate="1" pin="V+"/>
-<wire x1="5.1308" y1="78.9432" x2="5.08" y2="78.9432" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="78.9432" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VBAT@1"/>
-<wire x1="119.38" y1="99.06" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VBAT@2"/>
-<wire x1="114.3" y1="101.6" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
-<junction x="114.3" y="101.6"/>
-<pinref part="U$1" gate="G$1" pin="VBAT@3"/>
-<wire x1="109.22" y1="101.6" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="99.06" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
-<junction x="109.22" y="99.06"/>
-<pinref part="P+6" gate="1" pin="V+"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="201.803" y1="90.7288" x2="201.803" y2="96.9772" width="0.1524" layer="91"/>
-<wire x1="201.803" y1="96.9772" x2="200.3806" y2="96.9772" width="0.1524" layer="91"/>
-<pinref part="P+8" gate="1" pin="V+"/>
-<wire x1="200.3806" y1="96.9772" x2="203.2" y2="96.9772" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="96.9772" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
-<junction x="200.3806" y="96.9772"/>
 </segment>
 </net>
 </nets>

@@ -108,3 +108,9 @@
 - Corrigé la taille des images dans le compte rendu.
 - Respecté la zone de Keepout du SIM7000.
 - Écriture de la documentation dans Readme.md.
+
+## Lundi 3 Février 2025
+- Continué à faire le routage puis passé à Jarod, pour que je puisse regarder le code.
+- Fait plusieurs essais avec le code et des nouvelles libraries.
+- Pas encore réussi.
+- J'amène la carte à la maison pour vérifier le cablage et continuer à faire des essais.
