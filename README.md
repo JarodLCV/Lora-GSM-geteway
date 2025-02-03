@@ -1,5 +1,9 @@
 # **Passerelle LoRa-GSM**  
-Un projet combinant des connaissances en électronique et en programmation pour créer un pont entre le GSM et le LoRa.  
+Un projet combinant des connaissances en électronique et en programmation pour créer un pont entre le GSM et le LoRa.
+
+![image](https://github.com/user-attachments/assets/3acdb9e8-fed4-4b29-99b4-2c63c6d7694c)
+
+
 
 ## **Contexte du projet**  
 Il s'agit d'un projet du cours de Projet d'Électronique, encadré par Monsieur Christian Peter (Christian.PETER@univ-cotedazur.fr), dans le cadre du cursus d'Ingénierie Électronique et Informatique Industrielle de la Polytech de Sophia Antipolis.  
@@ -30,3 +34,7 @@ C'est un microcontrôleur développé par Espressif, intégrant **Wi-Fi et Bluet
 
 **SIM7000 :**  
 C'est un module de communication **GSM/GPRS/NB-IoT/LTE Cat-M1** développé par Simcom. Il permet aux dispositifs IoT d'envoyer et de recevoir des données via les réseaux mobiles, en prenant en charge les connexions **basse consommation**, idéales pour les capteurs distants et les applications de surveillance.  
+
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/89d18e22-138f-430b-ac1e-dbb92593b67c"/>
+
