@@ -34,3 +34,6 @@ Le 7 janvier 2025 :
 
 Le 3 février 2025 : 
     - Routage du PCB (continuation)
+
+Le 7 février 2025 : 
+    - Routage du PCB terminé
