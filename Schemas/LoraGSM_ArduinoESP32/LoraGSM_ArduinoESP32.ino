@@ -3,12 +3,14 @@
 #include <TinyGsmClient.h>
 #include <HardwareSerial.h>
 
+
 HardwareSerial mySerial(2); // UART2 for SIM7000G
 
 // Define TinyGSM modem
 TinyGsm modem(mySerial);
 
 void setup() {
+  
   // Start USB Serial for debugging
   Serial.begin(115200);
   delay(10);
@@ -16,6 +18,8 @@ void setup() {
   // Initialize UART2 for the modem
   mySerial.begin(115200, SERIAL_8N1, 16, 17);
 
+
+  /*
   Serial.println("Initializing modem...");
     modem.sendAT("+CSQ"); // Check signal quality
   delay(1000);
@@ -47,6 +51,7 @@ void setup() {
   } else {
     Serial.println("Failed to send SMS!");
   }
+  */
 }
 
 void loop() {
