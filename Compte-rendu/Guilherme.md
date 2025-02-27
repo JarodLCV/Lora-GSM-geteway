@@ -1,5 +1,24 @@
 # Compte Rendu Guilherme VENTAPANE RODRIGUES
+- [Compte Rendu Guilherme VENTAPANE RODRIGUES](#compte-rendu-guilherme-ventapane-rodrigues)
+- [Partie 1 : Avant la **présentation 1**](#partie-1--avant-la-présentation-1)
+  - [Lundi 23 Septembre 2024](#lundi-23-septembre-2024)
+  - [Mardi 12 Novembre 2024](#mardi-12-novembre-2024)
+    - [Liste de composants :](#liste-de-composants-)
+  - [Du 18 au 20 Novembre 2024 (à la maison)](#du-18-au-20-novembre-2024-à-la-maison)
+  - [Lundi 25 Novembre 2024](#lundi-25-novembre-2024)
+  - [Mardi 26 Novembre 2024](#mardi-26-novembre-2024)
+  - [Jeudi 5 Décembre 2024 (à la maison)](#jeudi-5-décembre-2024-à-la-maison)
+  - [Lundi 9 Décembre 2024](#lundi-9-décembre-2024)
+  - [Mardi 7 Janvier 2025](#mardi-7-janvier-2025)
+  - [Samedi 18 Janvier 2025 (à la maison)](#samedi-18-janvier-2025-à-la-maison)
+  - [Dimanche 2 Février 2025 (à la maison)](#dimanche-2-février-2025-à-la-maison)
+  - [Lundi 3 Février 2025](#lundi-3-février-2025)
+  - [Lundi 10 Février 2025](#lundi-10-février-2025)
+- [Partie 2 : Après la **présentation 1**](#partie-2--après-la-présentation-1)
+  - [Mardi 25 Février 2025](#mardi-25-février-2025)
+  - [Vendredi 28 Février 2025](#vendredi-28-février-2025)
 
+# Partie 1 : Avant la **présentation 1**
 ## Lundi 23 Septembre 2024
 - Essai d'adapter Altium pour l'installer sur Mac.
 - Problème d'installation, Jarod va l'installer sur Windows.
@@ -116,3 +135,49 @@
 - J'amène la carte à la maison pour vérifier le cablage et continuer à faire des essais.
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/43da582c-54af-4560-8a36-635efeb3d2db" />
 
+## Lundi 10 Février 2025
+Présentation du projet.  
+Points d'amélioration :  
+- Utiliser Gantt pour la gestion du projet.  
+- Utiliser un peu plus d'images.  
+- Améliorer ma fluidité en français  
+
+# Partie 2 : Après la **présentation 1**  
+
+## Mardi 25 Février 2025  
+🚩 Événement : Arrivée du circuit imprimé.  
+
+Lors de ce dernier cours, Jarod a réalisé des tests sur son PC avec l'ESP32.  
+Pendant ce temps, j'ai décidé de tester chaque carte SIM7000G sur mon ordinateur via la communication par port série, en utilisant une application appelée Serial Tools.  
+![alt text](image.png)  
+
+Je n'ai obtenu aucun succès avec aucun des circuits.  
+
+Ensuite, nous avons échangé les rôles : j'ai pris en charge la partie ESP32 pendant que Jarod testait les cartes SIM7000G.  
+Après plusieurs essais, j'ai imaginé que le problème pouvait venir de la manière dont les câbles étaient connectés à l'ESP32.  
+
+- J'ai consulté la documentation de l'ESP32 Heltec LoRa V3.  
+- J'ai consulté la documentation du SIM7000G.  
+- J'ai entièrement refait le câblage.  
+- J'ai découvert que l'erreur venait du choix des terminaux du GPIO.  
+
+Comme on peut le voir sur l'image, l'ESP32 possède deux rangées numérotées. Pour moi, il ne semblait pas logique qu'un même numéro représente les deux côtés, étant donné qu'ils ne remplissent pas forcément la même fonction. Après vérification avec le professeur, c'était bien le cas.  
+
+Ainsi, voici le circuit refait :  
+[image]  
+
+Cette fois, au lieu d'utiliser 16 et 17 pour les sorties GPIO TX et RX, j'ai utilisé 19 et 20, qui sont les sorties correctes du GPIO.  
+
+Cela a fonctionné correctement et nous pouvons maintenant communiquer avec le SIM7000G et progresser avec le projet.  
+
+Cependant, bien que la connexion avec le SIM7000G soit établie, il n'était toujours pas possible de se connecter au réseau GPRS et d'envoyer des messages. J'ai tenté les actions suivantes :  
+- Changer l'antenne utilisée pour le LTE.  
+- Changer le circuit SIM7000G.  
+- Insérer la carte SIM de mon téléphone dans le module.  
+- Mettre la carte SIM du SIM7000G dans mon téléphone, où j'ai pu envoyer un message à Jarod.  
+
+Après en avoir discuté avec le professeur, la prochaine étape consistera à essayer avec le code du groupe de l'année dernière.  
+
+## Vendredi 28 Février 2025  
+À faire pour ce cours :  
+- [ ] Continuer à tester la carte avec le code du groupe de l'année dernière.  
