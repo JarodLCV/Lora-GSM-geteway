@@ -145,11 +145,14 @@ Points d'amélioration :
 # Partie 2 : Après la **présentation 1**  
 
 ## Mardi 25 Février 2025  
-🚩 Événement : Arrivée du circuit imprimé.  
+🚩 **Événement** : Arrivée du circuit imprimé.  
+  <img width="300" alt="image" src="https://github.com/user-attachments/assets/16eb6c52-78e2-4b00-bf0b-1f46c6ddeb71"/>
+
+
 
 Lors de ce dernier cours, Jarod a réalisé des tests sur son PC avec l'ESP32.  
 Pendant ce temps, j'ai décidé de tester chaque carte SIM7000G sur mon ordinateur via la communication par port série, en utilisant une application appelée Serial Tools.  
-![alt text](image.png)  
+![image](https://github.com/user-attachments/assets/3218a3e1-caa3-48fd-bd10-c22ec905b483)
 
 Je n'ai obtenu aucun succès avec aucun des circuits.  
 
@@ -159,12 +162,13 @@ Après plusieurs essais, j'ai imaginé que le problème pouvait venir de la mani
 - J'ai consulté la documentation de l'ESP32 Heltec LoRa V3.  
 - J'ai consulté la documentation du SIM7000G.  
 - J'ai entièrement refait le câblage.  
-- J'ai découvert que l'erreur venait du choix des terminaux du GPIO.  
+- J'ai découvert que l'erreur venait du choix des terminaux du GPIO.
 
+![image](https://github.com/user-attachments/assets/8f376e5e-371a-45f1-9889-5c924ae13562)
 Comme on peut le voir sur l'image, l'ESP32 possède deux rangées numérotées. Pour moi, il ne semblait pas logique qu'un même numéro représente les deux côtés, étant donné qu'ils ne remplissent pas forcément la même fonction. Après vérification avec le professeur, c'était bien le cas.  
 
 Ainsi, voici le circuit refait :  
-[image]  
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/f163f833-0517-48c7-bb62-70bc993fd5bc"/>
 
 Cette fois, au lieu d'utiliser 16 et 17 pour les sorties GPIO TX et RX, j'ai utilisé 19 et 20, qui sont les sorties correctes du GPIO.  
 
