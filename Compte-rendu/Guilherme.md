@@ -1,4 +1,4 @@
-<h1 align="center" color="#009900">📝 Compte Rendu | Guilherme VENTAPANE RODRIGUES></h1>
+<h1 align="center" color="#009900">📝 Compte Rendu | Guilherme VENTAPANE RODRIGUES</h1>
 <h2>Sommaire:</h2>
 
 - [Partie 1 : Avant la **présentation 1**](#partie-1--avant-la-présentation-1)
