@@ -1,5 +1,6 @@
-# Compte Rendu Guilherme VENTAPANE RODRIGUES
-- [Compte Rendu Guilherme VENTAPANE RODRIGUES](#compte-rendu-guilherme-ventapane-rodrigues)
+<h1 align="center" color="#009900">📝 Compte Rendu | <b>Guilherme VENTAPANE RODRIGUES</b></h1>
+<h2>Sommaire:</h2>
+
 - [Partie 1 : Avant la **présentation 1**](#partie-1--avant-la-présentation-1)
   - [Lundi 23 Septembre 2024](#lundi-23-septembre-2024)
   - [Mardi 12 Novembre 2024](#mardi-12-novembre-2024)
