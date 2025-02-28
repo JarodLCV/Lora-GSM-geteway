@@ -1,4 +1,4 @@
-#include "RucherLoRa.h"
+#include "RucherLoRa.h"/Users/guilhermeventapane/Library/CloudStorage/GoogleDrive-ventapanegui@gmail.com/My Drive/VENTAPANEGUI/Polytech/Projet Electronique/ProjetLoRaGuiJarod/Lora-GSM-geteway/Code/codeQuiFonctionne.ino
 
 // Cette fonction permet de localiser les satellites GPS en envoyant les commandes appropriées au module GPS via une communication série.
 void GPSLocator() {
@@ -11,7 +11,7 @@ void GPSLocator() {
 
 /*
 Cette fonction envoie une commande AT sur le port série et attend une réponse spécifiée, avec la possibilité de définir un timeout personnalisé.
-Elle prend en paramètres :
+Elle prend en paramètres :/Users/guilhermeventapane/Downloads/RucherLoRa 2/examples/unlockSIM/unlockSIM.ino
 - myCommand : la commande AT à envoyer
 - baudSerial : le débit de données de la communication série
 - baudSerial2 : le débit de données de la communication série 2 (pour les modules comme ESP32 avec plusieurs ports série)

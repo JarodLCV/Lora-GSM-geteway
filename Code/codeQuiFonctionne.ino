@@ -65,7 +65,7 @@ void setup() {
   }
 
   // Send an SMS
-  String phoneNumber = "+33635150270";  // 🔴 Replace with the real phone number
+  String phoneNumber = "+";  // 🔴 Replace with the real phone number
   String message = "Hello from ESP32 & SIM7000G! 🚀";
 
   Serial.println("\nSending SMS...");
