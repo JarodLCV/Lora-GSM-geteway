@@ -186,3 +186,22 @@ Après en avoir discuté avec le professeur, la prochaine étape consistera à e
 ## Vendredi 28 Février 2025  
 À faire pour ce cours :  
 - [ ] Continuer à tester la carte avec le code du groupe de l'année dernière.  
+
+
+
+
+
+Testei cada uma das cartas para ver se elas funcionam
+
+
+
+
+
+Tue 11
+O professor trouxe uma carta nova, busquei um pouco da documentacao online, mas decidimos que seria melhor se cada um fosse tenntando de cada lado.
+
+Eu tentei com o nosso circuito antigo, mas 
+
+Consegui fazer funcionar! Gracas ao codigo que encontrei no site
+https://randomnerdtutorials.com/lilygo-t-sim7000g-esp32-lte-gprs-gps/
+

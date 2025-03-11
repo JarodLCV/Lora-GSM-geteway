@@ -1,4 +1,4 @@
-#include "RucherLoRa.h"/Users/guilhermeventapane/Library/CloudStorage/GoogleDrive-ventapanegui@gmail.com/My Drive/VENTAPANEGUI/Polytech/Projet Electronique/ProjetLoRaGuiJarod/Lora-GSM-geteway/Code/codeQuiFonctionne.ino
+#include "RucherLoRa.h"
 
 // Cette fonction permet de localiser les satellites GPS en envoyant les commandes appropriées au module GPS via une communication série.
 void GPSLocator() {
@@ -48,7 +48,8 @@ Cette fonction envoie une commande AT sur le port série et attend une réponse 
 Elle surcharge la fonction sendCommand en ne spécifiant que la commande AT à envoyer et la réponse attendue.
 */
 void sendCommand(String myCommand, const char* expectedResponse, unsigned long timeout) {
-  sendCommand(myCommand, 9600, 115200, expectedResponse, timeout);
+  sendCommand(myCommand, 115200, 115200, expectedResponse, timeout);
+  //sendCommand(myCommand, 9600, 115200, expectedResponse, timeout);
 }
 
 /*
