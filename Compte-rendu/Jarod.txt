@@ -41,3 +41,16 @@ Le 7 février 2025 :
 Le 25 février 2025 : 
     - Recherche de documentation plus approfondi sur le BKSIM7000
     - Essai de faire fonctionner le module en direct dans ESP32
+
+Le 28 février 2025 : 
+    -
+
+Le 10 mars 2025 : 
+    - Refactorisation du code pour faire fonctionner le sim7000
+
+Le 11 mars 2025 : 
+    - Essai de la carte LILYGO qui comprend un sim7000 déjà intégré
+    - Reprise du code fonctionnel pour retirer le superflux
+    - Préparation de la carte pour le soudage
+    - Placement des composents sur la carte
+    - Passage de la carte au four
