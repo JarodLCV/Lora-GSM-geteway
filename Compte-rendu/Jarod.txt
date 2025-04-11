@@ -54,3 +54,15 @@ Le 11 mars 2025 :
     - Préparation de la carte pour le soudage
     - Placement des composents sur la carte
     - Passage de la carte au four
+
+Le 24 mars 2025 : 
+    - Soudure des composents traversant sur la carte
+    - Test de la carte non concluante
+    - Recherche de pannes
+
+Le 25 mars 2025 :
+    - Recherche de pannes
+    - Mise en place des composants 1 par 1 et test au fur et à mesure pour trouver ce qui ne va pas
+
+Le 7 avril 2025 :
+    - 
