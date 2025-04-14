@@ -3,7 +3,16 @@ Un projet combinant des connaissances en électronique et en programmation pour 
 
 ![image](https://github.com/user-attachments/assets/3acdb9e8-fed4-4b29-99b4-2c63c6d7694c)
 
+----
 
+**Table de matières**
+- [**Passerelle LoRa-GSM**](#passerelle-lora-gsm)
+  - [ℹ️ **Contexte du projet**](#ℹ️-contexte-du-projet)
+  - [🗂️ Dossiers](#️-dossiers)
+  - [**Réalisation du projet**](#réalisation-du-projet)
+    - [**Définitions :**](#définitions-)
+
+----
 
 ## ℹ️ **Contexte du projet**
 
@@ -13,6 +22,23 @@ Cette partie du projet concerne la communication à distance des données et est
 **Guilherme VENTAPANE RODRIGUES** <guilherme@ventapane.eu>
 et
 **Jarod LECOEUVRE** <jarod.lecoeuvre@etu.univ-cotedazur.fr>
+
+## 🗂️ Dossiers
+
+- 📁 **Compte-rendu** : Les étapes d'avancement du projet et les tâches que chaque membre du groupe avait effectuées.
+
+- 📁 **Partie_Electronique** : Fichiers liés à la partie électronique du projet, tels que le schéma de la carte, la documentation des composants, etc.
+  - 📁 **BOM** : Bill of Material de notre projet. La liste des composants nécessaires avec leurs valeurs, pour être placés sur le PCB.
+  - 📁 **Documentation_composants** : Fichiers de documentation pour certains composants utilisés dans le projet.
+  - 📁 **Eagle_Components** : Composants supplémentaires pour le logiciel EAGLE, qui n'étaient pas présents par défaut et que nous avons dû télécharger pour compléter notre projet.
+  - 📁 **Eagle_Schemas** : Schémas que nous avons utilisés pour notre projet, réalisés avec le logiciel EAGLE d'Autodesk.
+  - 📁 **Nano to micro simcard adapter 3d** : Un adaptateur de carte SIM vers micro SIM que nous avons imprimé en 3D pour notre projet.
+  - 📁 **Anciens_Schemas** : Fichiers de schémas du groupe de l'année dernière.
+
+- 📁 **Partie_Informatique** : Le dossier où se trouve le code qui tourne sur la carte.
+  - 📁 **projeLoRaMor** : Code du projet du groupe de l'année dernière.
+  - 📁 **src** : Les fichiers sources de notre projet, où se trouve le fichier main.ino, le fichier principal de notre projet.
+
 
 ## **Réalisation du projet**  
 
@@ -38,18 +64,4 @@ C'est un module de communication **GSM/GPRS/NB-IoT/LTE Cat-M1** développé par 
 
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/89d18e22-138f-430b-ac1e-dbb92593b67c"/>
 
-## 🗂️ Dossiers
 
-- 📁 **Compte-rendu** : Les étapes d'avancement du projet et les tâches que chaque membre du groupe avait effectuées.
-
-- 📁 **Partie_Electronique** : Fichiers liés à la partie électronique du projet, tels que le schéma de la carte, la documentation des composants, etc.
-  - 📁 **BOM** : Bill of Material de notre projet. La liste des composants nécessaires avec leurs valeurs, pour être placés sur le PCB.
-  - 📁 **Documentation_composants** : Fichiers de documentation pour certains composants utilisés dans le projet.
-  - 📁 **Eagle_Components** : Composants supplémentaires pour le logiciel EAGLE, qui n'étaient pas présents par défaut et que nous avons dû télécharger pour compléter notre projet.
-  - 📁 **Eagle_Schemas** : Schémas que nous avons utilisés pour notre projet, réalisés avec le logiciel EAGLE d'Autodesk.
-  - 📁 **Nano to micro simcard adapter 3d** : Un adaptateur de carte SIM vers micro SIM que nous avons imprimé en 3D pour notre projet.
-  - 📁 **Anciens_Schemas** : Fichiers de schémas du groupe de l'année dernière.
-
-- 📁 **Partie_Informatique** : Le dossier où se trouve le code qui tourne sur la carte.
-  - 📁 **projeLoRaMor** : Code du projet du groupe de l'année dernière.
-  - 📁 **src** : Les fichiers sources de notre projet, où se trouve le fichier main.ino, le fichier principal de notre projet.
