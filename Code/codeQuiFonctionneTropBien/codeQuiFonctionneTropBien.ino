@@ -27,12 +27,11 @@ const char gprsUser[] = "";
 const char gprsPass[] = "";
 
 // Set phone number, if you want to test SMS
-// Set a recipient phone number to test sending SMS (it must be in international format including the "+" sign)
+// Set a recipient phone number to test sending SMS (it must be in international format including the "+" sign)`
 #define SMS_TARGET  "+33645218132"
 
 #include <TinyGsmClient.h>
-#include <SPI.h>
-#include <SD.h>
+// 
 #include <Ticker.h>
 
 #ifdef DUMP_AT_COMMANDS  // if enabled it requires the streamDebugger lib
@@ -52,10 +51,10 @@ const char gprsPass[] = "";
 #define PIN_RX      19
 #define PWR_PIN     4
 
-#define SD_MISO     2
-#define SD_MOSI     15
-#define SD_SCLK     14
-#define SD_CS       13
+// #define SD_MISO     2
+// #define SD_MOSI     15
+// #define SD_SCLK     14
+// #define SD_CS       13
 #define LED_PIN     12
 
 int counter, lastIndex, numberOfPieces = 24;
@@ -75,14 +74,14 @@ void setup(){
   delay(300);
   digitalWrite(PWR_PIN, LOW);
 
-  SPI.begin(SD_SCLK, SD_MISO, SD_MOSI, SD_CS);
-  if (!SD.begin(SD_CS)) {
-    Serial.println("SDCard MOUNT FAIL");
-  } else {
-    uint32_t cardSize = SD.cardSize() / (1024 * 1024);
-    String str = "SDCard Size: " + String(cardSize) + "MB";
-    Serial.println(str);
-  }
+  //SPI.begin(SD_SCLK, SD_MISO, SD_MOSI, SD_CS);
+  // if (!SD.begin(SD_CS)) {
+  //   Serial.println("SDCard MOUNT FAIL");
+  // } else {
+  //   uint32_t cardSize = SD.cardSize() / (1024 * 1024);
+  //   String str = "SDCard Size: " + String(cardSize) + "MB";
+  //   Serial.println(str);
+  // }
 
   Serial.println("\nWait...");
 
@@ -96,17 +95,8 @@ void setup(){
   if (!modem.restart()) {
     Serial.println("Failed to restart modem, attempting to continue without restarting");
   }
-}
 
-void loop(){
-  // Restart takes quite some time
-  // To skip it, call init() instead of restart()
-  Serial.println("Initializing modem...");
-  if (!modem.init()) {
-    Serial.println("Failed to restart modem, attempting to continue without restarting");
-  }
-
-  String name = modem.getModemName();
+   String name = modem.getModemName();
   delay(500);
   Serial.println("Modem Name: " + name);
 
@@ -119,6 +109,18 @@ void loop(){
   if ( GSM_PIN && modem.getSimStatus() != 3 ) {
       modem.simUnlock(GSM_PIN);
   }
+  
+}
+
+void loop(){
+  // Restart takes quite some time
+  // To skip it, call init() instead of restart()
+  // Serial.println("Initializing modem...");
+  // if (!modem.init()) {
+  //   Serial.println("Failed to restart modem, attempting to continue without restarting");
+  // }
+
+ 
   modem.sendAT("+CFUN=0 ");
   if (modem.waitResponse(10000L) != 1) {
     DBG(" +CFUN=0  false ");
@@ -304,9 +306,6 @@ void loop(){
 */
 
   // --------TESTING SENDING SMS--------
-  res = modem.sendSMS(SMS_TARGET, String("Hello from ") + imei);
-  DBG("SMS:", res ? "Envoyé" : "fail");
-
   res = modem.sendSMS(SMS_TARGET, String("Hello from ") + imei);
   DBG("SMS:", res ? "Envoyé" : "fail");
 
