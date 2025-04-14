@@ -1,0 +1,1 @@
+Nano to micro sim card adapter by patmik on Thingiverse: https://www.thingiverse.com/thing:69581
