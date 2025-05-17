@@ -59,15 +59,6 @@ void setup(){
   delay(300);
   digitalWrite(PWR_PIN, LOW);
 
-  //SPI.begin(SD_SCLK, SD_MISO, SD_MOSI, SD_CS);
-  // if (!SD.begin(SD_CS)) {
-  //   Serial.println("ÉCHEC DU MONTAGE DE LA CARTE SD");
-  // } else {
-  //   uint32_t cardSize = SD.cardSize() / (1024 * 1024);
-  //   String str = "Taille de la carte SD : " + String(cardSize) + "MB";
-  //   Serial.println(str);
-  // }
-
   Serial.println("\nPatientez...");
 
   delay(1000);
@@ -136,19 +127,6 @@ void loop(){
     return ;
   }
   delay(200);
-
-  /*
-    AT+CBANDCFG=<mode>,<band>[,<band>…]
-    <mode> "CAT-M"   "NB-IOT"
-    <band> Doit correspondre à la liste retournée par AT+CBANDCFG=?
-    Exemple : Mon opérateur NB-IoT supporte la bande B8 → AT+CBANDCFG="NB-IOT",8
-  */
-  /* modem.sendAT("+CBANDCFG=\"NB-IOT\",8 ");*/
-  
-  /* if (modem.waitResponse(10000L) != 1) {
-       DBG(" +CBANDCFG=\"NB-IOT\" ");
-   }*/
-   delay(200);
 
   modem.sendAT("+CFUN=1 ");
   if (modem.waitResponse(10000L) != 1) {
@@ -253,38 +231,6 @@ void loop(){
   } else {
     Serial.println("Déconnexion GPRS : Échec");
   }
-
-  // --------TEST GPS--------
-  /*
-  Serial.println("\n---DÉBUT DU TEST GPS---\n");
-  // Mettre GPIO4 du SIM7000G à HIGH, allume l’alimentation GPS
-  // CMD:AT+SGPIO=0,4,1,1
-  // Fonction disponible uniquement dans la version 20200415
-  modem.sendAT("+SGPIO=0,4,1,1");
-  if (modem.waitResponse(10000L) != 1) {
-    DBG(" SGPIO=0,4,1,1 échoué ");
-  }
-  modem.enableGPS();
-  float lat,  lon;
-  while (1) {
-    if (modem.getGPS(&lat, &lon)) {
-      Serial.printf("lat:%f lon:%f\n", lat, lon);
-      break;
-    } else {
-      Serial.print("getGPS ");
-      Serial.println(millis());
-    }
-    delay(2000);
-  }
-  modem.disableGPS();
-
-  // GPIO4 à LOW, couper l’alim GPS
-  modem.sendAT("+SGPIO=0,4,1,0");
-  if (modem.waitResponse(10000L) != 1) {
-    DBG(" SGPIO=0,4,1,0 échoué ");
-  }
-  Serial.println("\n---FIN DU TEST GPS---\n");
-*/
 
   // --------TEST ENVOI SMS--------
   res = modem.sendSMS(SMS_TARGET, String("Salut de la part de ") + imei);
