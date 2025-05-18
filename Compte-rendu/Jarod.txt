@@ -43,7 +43,7 @@ Le 25 février 2025 :
     - Essai de faire fonctionner le module en direct dans ESP32
 
 Le 28 février 2025 : 
-    -
+    - Phase de test d'envoi d'un SMS avec le SMI7000
 
 Le 10 mars 2025 : 
     - Refactorisation du code pour faire fonctionner le sim7000
@@ -65,4 +65,11 @@ Le 25 mars 2025 :
     - Mise en place des composants 1 par 1 et test au fur et à mesure pour trouver ce qui ne va pas
 
 Le 7 avril 2025 :
-    - 
+    - On continue la recherche de pannes sur le PCB en soudant la partie alimentation
+
+11 avril 2025 :
+    - Soudure des fils TX/Rx directement sur les pin du pcb du SIM 7000
+    - Recherche du signal Tx, jusqu'ou il vas
+    - Même chose mais directement sur l'ESP32 (ça marche!)
+    - Test du module TXB0108 qui converti le signal Tx de 3,3V à 1,8V
+        - on le passe en 3,3V car le BK SIM7000 fonctionne en 3,3V, dès qu'on met 3,3V on n'arrive plus à programmer l'ESP32

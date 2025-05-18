@@ -37,7 +37,7 @@ et
   - 📁 **Anciens_Schemas** : Fichiers de schémas du groupe de l'année dernière.
 
 - 📁 **Partie_Informatique** : Le dossier où se trouve le code qui tourne sur la carte.
-  - 📁 **projeLoRaMor** : Code du projet du groupe de l'année dernière.
+  - 📁 **code_groupe_annee_derniere** : Code du projet du groupe de l'année dernière.
   - 📁 **src** : Les fichiers sources de notre projet, où se trouve le fichier main.ino, le fichier principal de notre projet.
 
 
